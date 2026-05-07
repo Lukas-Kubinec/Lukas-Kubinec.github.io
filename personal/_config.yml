@@ -1,0 +1,11 @@
+title: Lukas Kubinec
+email: Luko.Kubinec@gmail.com
+description: Software & Games developer | Grad student Edge Hill University UK.
+baseurl: ''
+url: ''
+twitter_username: ''
+github_username: Lukas-Kubinec
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-admin
