@@ -12,7 +12,7 @@ theme: minima
 
 minima:
   skin: solarized-dark
-  hide_site_feed_link: true  # `false` or `null` by default
+  hide_site_feed_link: true
   social_links:
     - title: GitHub
       icon: github
