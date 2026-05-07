@@ -1,20 +1,15 @@
 exclude:
   - Gemfile
   - Gemfile.lock
+  
 header_pages:
   - index.md
-  - about.md
-  - projects.md
+  
 title: Lukas Kubinec
 email: Luko.Kubinec@gmail.com
 description: Software & Games developer | Grad student Edge Hill University UK.
-<<<<<<< Updated upstream
-baseurl: 'personal'
-=======
-baseurl: \personal\
->>>>>>> Stashed changes
-url: ''
-twitter_username: ''
+url: 
+twitter_username: 
 github_username: Lukas-Kubinec
 theme: minima
 plugins:
