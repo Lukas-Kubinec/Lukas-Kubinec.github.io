@@ -1,17 +1,34 @@
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  
 header_pages:
-  - index.md
+  - index.markdown
+  - projects.markdown
+  - about.markdown
   
 title: Lukas Kubinec
 email: Luko.Kubinec@gmail.com
 description: Software & Games developer | Grad student Edge Hill University UK.
-url: 
-twitter_username: 
-github_username: Lukas-Kubinec
+url:
+
 theme: minima
+
+minima:
+  skin: solarized-dark
+  hide_site_feed_link: true  # `false` or `null` by default
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://lukas-kubinec.github.io/"
+    - title: LinkedIn
+      icon: linkedin-in
+      url: "https://www.linkedin.com/in/lukaskubinec/"
+    - title: ItchIo
+      icon: itch-io
+      url: "https://lukey-uk.itch.io/"
+
+
+# remote_theme: jekyll/minima
+
+linkedin: lukaskubinec
+
 plugins:
   - jekyll-feed
   - jekyll-admin

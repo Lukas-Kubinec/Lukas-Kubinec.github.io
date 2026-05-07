@@ -3,4 +3,65 @@ title: Home
 layout: page
 ---
 
-Welcome to my personal site!
+Software programmer & Games developer
+
+Computer Science @ Edge Hill University
+
+Programming skills
+* C++
+* C#
+* Java
+* Python
+
+Game engines:
+* Unreal
+* Unity
+* Game Maker
+
+# **Projects**
+# See Liverpool
+An educational-interactive game based in the recreated Waterfront area of Liverpool. Player can explore the city, learn about its history and its various landmarks, and complete a series of tasks.
+
+**What I learnt?**
+Researched similar games for inspiration, learnt their techniques and styles of how they present information to the player. 
+More advanced dialogue system, that reads individual dialogue texts from files (.CSV based) which enables the game to be translated to multiple languages.
+
+Created a "Question" system, where the player must choose the right answer. The text for this is also read from a file.
+Researched the areas and landmarks that could be added to the game, then took their photographs. 
+I have modeled these landmarks in Blender, and I tried to ensure their dimensions are as close to their real counterparts as possible.
+Cropped textures from photos and applied them to these 3D models.
+Gathered interesting facts from the Internet and a Liverpool native amateur historian.
+All the dialogue lines are also read to the player by a native "Scouse" speaker.
+Screenshots:
+	
+| -------- | -------- | 
+| ![Screenshot](/Screenshot%202026-04-01%20104122.png)     | ![Screenshot](/Screenshot%202026-04-01%20104049.png)     |
+| ![Screenshot](/Screenshot%202026-04-01%20104031.png)     | ![Screenshot](/Screenshot%202026-04-01%20104150.png)     | 
+
+# Easter Egg-Hunt
+Creation of concept with the main goal of Egg-Hunting.
+
+**What I learnt?**
+Gathered information of folk culture and architecture of Central European countries.
+Creation of 2D and 3D art, animations added to character and animals.
+Buildings models and textures were based on the traditional architecture of Central Europe.
+Usage of the built-in LOD system using LOD versions of all models.
+Developed reusable dialogue system, that supports audio and animations.
+Screenshots:
+
+| -------- | -------- | 
+| ![Screenshot](/Screenshot%202026-04-01%20104122.png)     | ![Screenshot](/Screenshot%202026-04-01%20104049.png)     |
+| ![Screenshot](/Screenshot%202026-04-01%20104031.png)     | ![Screenshot](/Screenshot%202026-04-01%20104150.png)     | 
+
+# Mystic Quest
+A short-length prototype of a RPG with turn-based combat. This game was a result of a team effort. 
+
+**What I learnt?**
+Created the Save/Load system using ".JSON" utility.
+Developed a character movement and animation controller with animation states.
+Helped with finishing touches before the assignment was due. 
+Screenshots:
+
+| -------- | -------- | 
+| ![Screenshot](/Screenshot%202026-04-01%20104122.png)     | ![Screenshot](/Screenshot%202026-04-01%20104049.png)     |
+| ![Screenshot](/Screenshot%202026-04-01%20104031.png)     | ![Screenshot](/Screenshot%202026-04-01%20104150.png)     |
