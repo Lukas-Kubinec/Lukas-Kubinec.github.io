@@ -5,7 +5,7 @@ header_pages:
   
 title: Lukas Kubinec
 email: Luko.Kubinec@gmail.com
-description: Software & Games developer | Grad student Edge Hill University UK.
+description: Software & Games developer | BSc Computer Science
 url:
 
 theme: minima
@@ -23,11 +23,6 @@ minima:
     - title: ItchIo
       icon: itch-io
       url: "https://lukey-uk.itch.io/"
-
-
-# remote_theme: jekyll/minima
-
-linkedin: lukaskubinec
 
 plugins:
   - jekyll-feed
