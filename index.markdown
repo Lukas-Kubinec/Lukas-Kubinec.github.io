@@ -35,8 +35,8 @@ All the dialogue lines are also read to the player by a native "Scouse" speaker.
 Screenshots:
 	
 | -------- | -------- | 
-| ![Screenshot](/Screenshot%202026-04-01%20104122.png)     | ![Screenshot](/Screenshot%202026-04-01%20104049.png)     |
-| ![Screenshot](/Screenshot%202026-04-01%20104031.png)     | ![Screenshot](/Screenshot%202026-04-01%20104150.png)     | 
+| ![Screenshot](/SeeLiverpool 07_05_2026 01_29_14.png)     | ![Screenshot](/SeeLiverpool 07_05_2026 01_30_47.png)     |
+| ![Screenshot](/SeeLiverpool 07_05_2026 01_29_22.png)     | ![Screenshot](/SeeLiverpool 07_05_2026 01_29_31.png)     | 
 
 # Easter Egg-Hunt
 Creation of concept with the main goal of Egg-Hunting.
