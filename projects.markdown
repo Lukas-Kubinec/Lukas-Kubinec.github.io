@@ -1,5 +1,7 @@
 ---
-layout: page
 title: Projects
-# permalink: "/projects/"
+layout: page
+permalink: "/projects/"
 ---
+
+WIP
