@@ -27,3 +27,16 @@ minima:
 
 plugins:
   - jekyll-admin
+  - jekyll-remote-theme
+  - 'jekyll-sitemap'
+  - jekyll-seo-tag
+  - jekyll-sass-converter
+  - jekyll-github-metadata
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
