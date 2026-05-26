@@ -51,7 +51,7 @@ Worked on various "small-detail" effects and features.
 Screenshots:
 
 | -------- | -------- | 
-| ![Screenshot](/Screenshot%2026-04-24%143831.png)     | ![Screenshot](/Screenshot%2026-04-24%144634.png)     |
+| ![Screenshot](/fd1.png)     | ![Screenshot](/fd2.png)     |
 
 # Easter Egg-Hunt
 Creation of concept with the main goal of Egg-Hunting.
@@ -72,7 +72,7 @@ Screenshots:
 A short-length prototype of a RPG with turn-based combat. This game was a result of a team effort. 
 
 **What I learnt?**
-Created the Save/Load system using ".JSON" utility.
+Created a Save/Load system using ".JSON" utility.
 Developed a character movement and animation controller with animation states.
 Helped with finishing touches before the assignment was due. 
 Screenshots:
