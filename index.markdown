@@ -78,5 +78,5 @@ Helped with finishing touches before the assignment was due.
 Screenshots:
 
 | -------- | -------- | 
-| ![Screenshot](/Screenshot%2025-01-10%120011.png)     | ![Screenshot](/MQ_(1).png)     |
-| ![Screenshot](/Screenshot%2025-01-10%133926.png)     | ![Screenshot](/MQ_(4).png)     |
+| ![Screenshot](/MQ_(3).png)     | ![Screenshot](/MQ_(1).png)     |
+| ![Screenshot](/MQ_(2).png)     | ![Screenshot](/MQ_(4).png)     |
