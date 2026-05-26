@@ -1,0 +1,42 @@
+header_pages:
+  - index.markdown
+  - projects.markdown
+  - about.markdown
+  
+github: [metadata]
+
+
+title: Lukas Kubinec
+email: Luko.Kubinec@gmail.com
+description: Software & Game developer | Grad student Edge Hill University UK.
+theme: minima
+
+minima:
+  skin: solarized-dark
+  hide_site_feed_link: true
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://lukas-kubinec.github.io/"
+    - title: LinkedIn
+      icon: linkedin-in
+      url: "https://www.linkedin.com/in/lukaskubinec/"
+    - title: ItchIo
+      icon: itch-io
+      url: "https://lukey-uk.itch.io/"
+
+plugins:
+  - jekyll-admin
+  - jekyll-remote-theme
+  - 'jekyll-sitemap'
+  - jekyll-seo-tag
+  - jekyll-sass-converter
+  - jekyll-github-metadata
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
