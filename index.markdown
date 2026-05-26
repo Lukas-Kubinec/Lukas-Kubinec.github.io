@@ -35,8 +35,23 @@ All the dialogue lines are also read to the player by a native "Scouse" speaker.
 Screenshots:
 	
 | -------- | -------- | 
-| ![Screenshot](/SeeLiverpool 07_05_2026 01_29_14.png)     | ![Screenshot](/SeeLiverpool 07_05_2026 01_30_47.png)     |
-| ![Screenshot](/SeeLiverpool 07_05_2026 01_29_22.png)     | ![Screenshot](/SeeLiverpool 07_05_2026 01_29_31.png)     | 
+| ![Screenshot](/SeeLiverpool%07_05_2026 01_29_14.png)     | ![Screenshot](/SeeLiverpool%07_05_2026%01_30_47.png)     |
+| ![Screenshot](/SeeLiverpool%07_05_2026 01_29_22.png)     | ![Screenshot](/SeeLiverpool%07_05_2026%01_29_31.png)     | 
+
+# Floppy-Diskettes project
+An endless first-person zombie shooter.
+
+**What I learnt?**
+Researched various noise generation methods.
+Wrote script that used the Perlin noise, Snoise and Cnoise to generate height map and textures.
+Created a simplified "Cell Collapse" generator to produce random vegetation and obstacles.
+Helped create a Dynamic Difficulty Adjustment system, that would adapt the game's difficulty 
+to match player performance.
+Worked on various "small-detail" effects and features.
+Screenshots:
+
+| -------- | -------- | 
+| ![Screenshot](/Screenshot%2026-04-24%143831.png)     | ![Screenshot](/Screenshot%2026-04-24%144634.png)     |
 
 # Easter Egg-Hunt
 Creation of concept with the main goal of Egg-Hunting.
@@ -63,5 +78,5 @@ Helped with finishing touches before the assignment was due.
 Screenshots:
 
 | -------- | -------- | 
-| ![Screenshot](/Screenshot%202026-04-01%20104122.png)     | ![Screenshot](/Screenshot%202026-04-01%20104049.png)     |
-| ![Screenshot](/Screenshot%202026-04-01%20104031.png)     | ![Screenshot](/Screenshot%202026-04-01%20104150.png)     |
+| ![Screenshot](/Screenshot%2025-01-10%120011.png)     | ![Screenshot](/Screenshot%2025-01-10%122027.png)     |
+| ![Screenshot](/Screenshot%2025-01-10%133926.png)     | ![Screenshot](/Screenshot%2025-01-10%134043.png)     |
