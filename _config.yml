@@ -3,6 +3,9 @@ header_pages:
   - projects.markdown
   - about.markdown
   
+github: [metadata]
+
+
 title: Lukas Kubinec
 email: Luko.Kubinec@gmail.com
 description: Software & Game developer | Grad student Edge Hill University UK.
