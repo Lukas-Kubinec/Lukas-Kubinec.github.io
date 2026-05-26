@@ -136,7 +136,6 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.4.1)
   jekyll-admin
-  jekyll-feed (~> 0.12)
   jekyll-remote-theme
   jekyll-seo-tag
   jekyll-sitemap
