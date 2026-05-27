@@ -53,8 +53,22 @@ main {
 /* Tag */
 #tag {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     flex-basis: 100%;
+}
+/* Name */
+#tag h1 {
+    display: flex;
     flex-direction: column;
+    flex-basis: 100%;
+    align-items: center;
+}
+/* Skills,hobbies,etc. */
+#tag span {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
     align-items: center;
 }
 
@@ -112,11 +126,13 @@ main {
     flex-basis: 100%;
 }
 
-/* Games specific articles */
-#articles section.fullsize p span a {
+/* Link buttons inside articles */
+#articles section p span a {
     display: flex;
     justify-content: center;
     padding: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     margin-top: 1rem;
 }
 

@@ -34,7 +34,6 @@ h2 {
 #nav_buttons a:first-child {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-
 }
 
 #nav_buttons a:last-child {
@@ -93,8 +92,8 @@ main {
     box-shadow: 0px 6px rgb(20, 20, 20);
 }
 
-/* Games specific articles */
-#articles section.fullsize p span a {
+/* Link buttons in articles */
+#articles section p span a {
     color: white;
     width: 100%;
     text-decoration: none;
@@ -102,7 +101,7 @@ main {
     border-radius: 6px;
 }
 
-#articles section.fullsize p span a:hover {
+#articles section p span a:hover {
     background-color: rgb(130, 38, 38);
 }
 
