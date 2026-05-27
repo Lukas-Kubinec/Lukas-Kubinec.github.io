@@ -1,0 +1,137 @@
+/* Styles */
+
+
+body {
+    background-color: rgb(23,37,59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, a {
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+h2 {
+    font-size: 1.25vw;
+}
+
+/* Header */
+#navbar {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: black;
+    box-shadow: 0px 6px rgb(20, 20, 20);
+}
+
+#logo {
+    background-color: rgb(93, 27, 27);
+    border-radius: 100%;
+}
+
+#nav_buttons a:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+
+#nav_buttons a:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#nav_buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(175, 68, 68);
+    border: 1px solid black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#nav_buttons a#selected {
+    background-color: rgb(130, 38, 38);
+}
+
+#nav_buttons a:hover, #nav_buttons a#selected:hover {
+    background-color: brown;
+    transition: all 0.3s ease;
+}
+
+/* Main */
+main {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #000000;
+    color: white;
+    box-shadow: 0px 6px rgb(20, 20, 20);
+}
+
+/* Tag */
+#tag h1, #tag h2  {
+    color: rgb(98, 218, 98);
+    text-shadow: 1px 1px rgb(24, 51, 24);
+}
+
+/* Articles */
+#articles {
+    border-top: 1px solid rgb(23,37,59);
+}
+
+#articles section h2 {
+    background-color: rgb(22, 36, 36);
+    border: 1px solid none;
+    border-radius: 6px 6px 0 0;
+}
+
+#articles section p {
+    background-color: rgb(26, 48, 48);
+    border: 1px solid none;
+    border-radius: 0 6px 6px 6px;
+    box-shadow: 0px 6px rgb(20, 20, 20);
+}
+
+/* Games specific articles */
+#articles section.fullsize p span a {
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(175, 68, 68);
+    border-radius: 6px;
+}
+
+#articles section.fullsize p span a:hover {
+    background-color: rgb(130, 38, 38);
+}
+
+/* Experience */
+#experience {
+    border-top: 1px solid rgb(23,37,59);
+}
+
+/* Hobbies */
+#hobbies {
+    border-top: 1px solid rgb(23,37,59);
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+}
+
+@media all and (max-width:962px) {
+    p, a {
+        font-size: 3vw;
+    }
+    
+    h1 {
+        font-size: 4vw;
+    }
+    
+    h2 {
+        font-size: 3.5vw;
+    }
+}
