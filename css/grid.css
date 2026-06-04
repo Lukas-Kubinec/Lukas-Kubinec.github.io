@@ -56,6 +56,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 100%;
+    justify-content: center;
 }
 /* Name */
 #tag h1 {
@@ -68,8 +69,11 @@ main {
 #tag span {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: content;
     align-items: center;
+    margin: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* Articles */
@@ -107,6 +111,14 @@ main {
 
 #articles section p span {
     display: flex;
+    flex-basis: auto;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#articles section p span.gallery {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -125,7 +137,7 @@ main {
 }
 
 #articles section p span img:hover {
-    transform: scale(2);
+    transform: scale(200%) translateY(-25%);
 }
 
 #articles section h2, #articles section p{
@@ -156,6 +168,19 @@ main {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     margin-top: 1rem;
+}
+
+#articles section p span.gallery a {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+#articles section p span.gallery a img {
+    width: 100%;
+    height: auto;
 }
 
 /* Experience */
@@ -233,6 +258,7 @@ main {
     flex-basis: 100%;
     flex-direction: column;
     align-items: center;
+
 }
 
 /* Articles */

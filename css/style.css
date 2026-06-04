@@ -82,6 +82,12 @@ main {
     text-shadow: 1px 1px rgb(24, 51, 24);
 }
 
+div#tag span {
+    background-color: rgb(26, 48, 48);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 6px rgb(20, 20, 20);
+}
+
 /* Articles */
 #articles {
     border-top: 1px solid rgb(23,37,59);
@@ -89,19 +95,26 @@ main {
 
 #articles section h2 {
     background-color: rgb(22, 36, 36);
-    border: 1px solid none;
     border-radius: 6px 6px 0 0;
 }
 
 #articles section p {
     background-color: rgb(26, 48, 48);
-    border: 1px solid none;
     border-radius: 0 6px 6px 6px;
     box-shadow: 0px 6px rgb(20, 20, 20);
 }
 
 /* Link buttons in articles */
 #articles section p span a {
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(175, 68, 68);
+    box-shadow: 0px 4px rgb(20, 20, 20);
+    border-radius: 6px;
+}
+
+#articles section p span.gallery a {
     color: white;
     width: 100%;
     text-decoration: none;
@@ -120,7 +133,7 @@ main {
 
 #articles section p span img {
     border: 2px solid rgb(20, 20, 20);
-    border-radius: 6;
+    border-radius: 6px;
 }
 
 /* Experience */
