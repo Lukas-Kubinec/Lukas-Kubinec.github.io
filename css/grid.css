@@ -6,7 +6,7 @@ body {
 
 /* Header */
 #navbar {
-    margin: 0 20% 0 20%;
+    margin: 0 5% 0 5%;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@ body {
 
 /* Main */
 main {
-    margin: 1rem 20% 0 20%;
+    margin: 1rem 5% 0 5%;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -108,11 +108,24 @@ main {
 #articles section p span {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
+
+#articles section p span.smallbutton {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
 
 #articles section p span img {
     width: 20%;
-    padding: 1rem 1rem 0 0;
+}
+
+#articles section p span img:hover {
+    transform: scale(2);
 }
 
 #articles section h2, #articles section p{
@@ -127,6 +140,15 @@ main {
 }
 
 /* Link buttons inside articles */
+#articles section p span a.smallbutton {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+
 #articles section p span a {
     display: flex;
     justify-content: center;
