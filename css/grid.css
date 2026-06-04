@@ -134,6 +134,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    z-index: 900;
 }
 
 #articles section p span.smallbutton {
@@ -150,6 +151,7 @@ main {
 
 #articles section p span img:hover {
     transform: scale(200%) translateY(-25%);
+    object-fit: cover;
 }
 
 #articles section h2, #articles section p{
@@ -295,6 +297,10 @@ main {
 
 #articles section h2, #articles section p{
     margin-left: 1rem;
+}
+
+#articles section p span img:hover {
+    transform: scale(300%) translateY(-25%);
 }
 
 /* Experience */
