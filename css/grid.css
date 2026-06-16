@@ -68,6 +68,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 100%;
+    padding-top: 1rem;
     justify-content: space-evenly;
 }
 /* Name */
@@ -133,7 +134,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     z-index: 900;
 }
 
@@ -145,15 +146,8 @@ main {
 }
 
 
-#articles section p span img {
-    width: 20%;
-    aspect-ratio: 4 / 3;
-}
-
-#articles section p span img:hover {
-    transform: scale(200%) translateY(-25%);
-    object-fit: cover;
-    aspect-ratio: auto;
+#articles section p span img, iframe {
+    width: 75%;
 }
 
 #articles section h2, #articles section p{
@@ -261,6 +255,7 @@ main {
     flex-basis: 100%;
     flex-direction: column;
     align-items: stretch;
+    padding-top: 0rem;
 }
 
 #tag span {
@@ -289,11 +284,6 @@ main {
 
 #articles section h2, #articles section p{
     margin-left: 1rem;
-}
-
-#articles section p span img:hover {
-    transform: scale(300%) translateY(-25%);
-    aspect-ratio: auto;
 }
 
 /* Experience */

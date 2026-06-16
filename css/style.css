@@ -4,6 +4,8 @@
     --bck: #0D0D0D;
     --primary-text: #fff;
     --tag-text: #62da62;
+    --section-header: #162424;
+    --section-image-border: #162424;
 }
 
 
@@ -100,7 +102,7 @@ a#contact {
 }
 
 #articles section h2 {
-    background-color: rgb(22, 36, 36);
+    background-color: var(--section-header);
     border-radius: 6px 6px 0 0;
 }
 
@@ -138,8 +140,9 @@ a#contact {
 }
 
 #articles section p span img {
-    border: 2px solid rgb(20, 20, 20);
+    border: 2px solid, var(--section-image-border);
     border-radius: 6px;
+    margin: 0.5em;
 }
 
 /* Experience */
