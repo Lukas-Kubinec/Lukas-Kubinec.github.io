@@ -1,11 +1,27 @@
-/* Colours */
+
 :root{
-    --void: #17253b;
-    --bck: #0D0D0D;
+    /* Colours */
+    /* Text */
     --primary-text: #fff;
-    --tag-text: #62da62;
-    --section-header: #162424;
-    --section-image-border: #162424;
+    --tag-text: #ffffff;
+
+    /* Backgrounds */
+    --void: #03045e;
+    --navbar-bck: #000;
+    --tag-bck: #2a6f97;
+    --section-header: #006499;
+    --section-background: #0077b6;
+    --section-image-border: #caf0f84f;
+
+    /* Buttons */
+    --button-background: #01497c;
+    --button-hover-background: #014f86;
+    --navbutton-background: #5493b4;
+    --navbutton-hover-background: #62add5;
+    --navbutton-selected-background: #387392;
+
+    /* Settings */
+    --border-size: 10px;
 }
 
 
@@ -31,9 +47,9 @@ h2 {
 /* Header */
 #navbar {
     border: 2px solid black;
-    border-radius: 6px;
-    background-color: var(--bck);
-    box-shadow: 0px 6px rgb(20, 20, 20);
+    border-radius: var(--border-size);
+    background-color: var(--navbar-bck);
+    box-shadow: 0px var(--border-size) rgb(20, 20, 20);
 }
 
 #logo {
@@ -42,40 +58,36 @@ h2 {
 }
 
 #nav_buttons a:first-child {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-top-left-radius: var(--border-size);
+    border-bottom-left-radius: var(--border-size);
 }
 
 #nav_buttons a:last-child {
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-right-radius: var(--border-size);
+    border-bottom-right-radius: var(--border-size);
 }
 
 #nav_buttons a {
     text-decoration: none;
     color: var(--primary-text);
-    background-color: rgb(175, 68, 68);
+    background-color: var(--navbutton-background);
     border: 1px solid black;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 #nav_buttons a#selected {
-    background-color: rgb(130, 38, 38);
+    background-color: var(--navbutton-selected-background);
 }
 
 #nav_buttons a:hover, #nav_buttons a#selected:hover {
-    background-color: brown;
+    background-color: var(--navbutton-hover-background);
     transition: all 0.3s ease;
 }
 
 /* Main */
 main {
-    border: 2px solid black;
-    border-radius: 6px;
-    background-color: #000000;
     color: var(--primary-text);
-    box-shadow: 0px 6px rgb(20, 20, 20);
 }
 
 /* Tag */
@@ -85,9 +97,9 @@ main {
 }
 
 div#tag span {
-    background-color: rgb(26, 48, 48);
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0px 6px rgb(20, 20, 20);
+    background-color: var(--tag-bck);
+    border-radius: var(--border-size) var(--border-size) var(--border-size) var(--border-size);
+    box-shadow: 0px var(--border-size) rgb(20, 20, 20);
 }
 
 /* Contact links */
@@ -97,19 +109,15 @@ a#contact {
 }
 
 /* Articles */
-#articles {
-    border-top: 1px solid rgb(23,37,59);
-}
-
 #articles section h2 {
     background-color: var(--section-header);
-    border-radius: 6px 6px 0 0;
+    border-radius: var(--border-size) var(--border-size) 0 0;
 }
 
 #articles section p {
-    background-color: rgb(26, 48, 48);
-    border-radius: 0 6px 6px 6px;
-    box-shadow: 0px 6px rgb(20, 20, 20);
+    background-color: var(--section-background);
+    border-radius: 0 var(--border-size) var(--border-size) var(--border-size);
+    box-shadow: 0px var(--border-size) rgb(20, 20, 20);
 }
 
 /* Link buttons in articles */
@@ -117,18 +125,9 @@ a#contact {
     color: white;
     width: 100%;
     text-decoration: none;
-    background-color: rgb(175, 68, 68);
+    background-color: var(--button-background);
     box-shadow: 0px 4px rgb(20, 20, 20);
-    border-radius: 6px;
-}
-
-#articles section p span.gallery a {
-    color: white;
-    width: 100%;
-    text-decoration: none;
-    background-color: rgb(175, 68, 68);
-    box-shadow: 0px 4px rgb(20, 20, 20);
-    border-radius: 6px;
+    border-radius: var(--border-size);
 }
 
 #articles section p span a.smallbutton {
@@ -136,12 +135,12 @@ a#contact {
 }
 
 #articles section p span a:hover {
-    background-color: rgb(130, 38, 38);
+    background-color: var(--button-hover-background);
 }
 
-#articles section p span img {
+#articles section p span img, #articles section p span iframe {
     border: 2px solid, var(--section-image-border);
-    border-radius: 6px;
+    border-radius: var(--border-size);
     margin: 0.5em;
 }
 

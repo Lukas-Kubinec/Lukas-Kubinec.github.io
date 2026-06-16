@@ -134,8 +134,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    z-index: 900;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 #articles section p span.smallbutton {
@@ -146,8 +147,8 @@ main {
 }
 
 
-#articles section p span img, iframe {
-    width: 75%;
+#articles section p span img,#articles section p span img iframe {
+    width: 45%;
 }
 
 #articles section h2, #articles section p{
@@ -276,10 +277,8 @@ main {
     flex-basis: 100%;
 }
 
-#articles section:first-child {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
+#articles section p span img, iframe {
+    width: 90%;
 }
 
 #articles section h2, #articles section p{
