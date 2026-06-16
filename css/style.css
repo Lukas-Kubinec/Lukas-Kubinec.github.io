@@ -12,6 +12,7 @@
     --section-header: #006499;
     --section-background: #0077b6;
     --section-image-border: #caf0f84f;
+    --shadow: #000000bd;
 
     /* Buttons */
     --button-background: #01497c;
@@ -33,7 +34,7 @@ body {
 }
 
 p, a {
-    font-size: 1.25vw;
+    font-size: 1.5vw;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 /* Header */
@@ -49,7 +50,7 @@ h2 {
     border: 2px solid black;
     border-radius: var(--border-size);
     background-color: var(--navbar-bck);
-    box-shadow: 0px var(--border-size) rgb(20, 20, 20);
+    box-shadow: 0px var(--border-size) var(--shadow);
 }
 
 #logo {
@@ -99,12 +100,13 @@ main {
 div#tag span {
     background-color: var(--tag-bck);
     border-radius: var(--border-size) var(--border-size) var(--border-size) var(--border-size);
-    box-shadow: 0px var(--border-size) rgb(20, 20, 20);
+    box-shadow: 0px var(--border-size) var(--shadow);
 }
 
 /* Contact links */
-a#contact {
-    text-decoration-style: dotted;
+a.contact {
+    text-decoration-style: none;
+    text-decoration-line: none;
     color: var(--tag-text)
 }
 
@@ -117,7 +119,7 @@ a#contact {
 #articles section p {
     background-color: var(--section-background);
     border-radius: 0 var(--border-size) var(--border-size) var(--border-size);
-    box-shadow: 0px var(--border-size) rgb(20, 20, 20);
+    box-shadow: 0px var(--border-size) var(--shadow);
 }
 
 /* Link buttons in articles */
@@ -126,7 +128,7 @@ a#contact {
     width: 100%;
     text-decoration: none;
     background-color: var(--button-background);
-    box-shadow: 0px 4px rgb(20, 20, 20);
+    box-shadow: 0px 4px var(--shadow);
     border-radius: var(--border-size);
 }
 
