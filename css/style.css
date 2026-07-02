@@ -15,7 +15,7 @@
     --logo-bck: #5d1b1b;
 
     /* Buttons */
-    --button-background: #5cc2ee;
+    --button-background: rgb(69, 175, 221);
     --button-hover-background: #4CC9FE;
     --button-focus-background: #ffbf8e;
     --button-selected-background: #ffab6b;
