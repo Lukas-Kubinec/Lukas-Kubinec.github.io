@@ -31,8 +31,8 @@ header {
 
 #logo img {
     display: flex;
-    height: 5vw;
-    width: 5vw;
+    height: 5rem;
+    width: 5rem;
     justify-content: center;
     align-items: center;
 }
@@ -68,7 +68,6 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 100%;
-    padding-top: 1rem;
     justify-content: space-evenly;
 }
 /* Name */
@@ -77,6 +76,7 @@ main {
     flex-direction: column;
     flex-basis: 100%;
     align-items: center;
+    margin-top: 5rem;
 }
 /* Skills,hobbies,etc. */
 #tag span {
@@ -110,9 +110,9 @@ main {
 }
 
 #articles section h2 {
-    width: max-content;
-    padding: 0.5rem;
-    margin: 1rem 0 0 0;
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem 1rem 0 0;
 }
 
 #articles section p {
@@ -199,6 +199,7 @@ main {
 /* Footer */
 footer {
     margin-top: 1rem;
+    margin-bottom: 0;
     display: flex;
     flex-basis: 100%;
     align-items: center;
@@ -261,7 +262,6 @@ main {
     flex-basis: 100%;
     flex-direction: column;
     align-items: stretch;
-    padding-top: 0rem;
 }
 
 #tag span {
@@ -288,6 +288,7 @@ main {
 
 #articles section h2, #articles section p{
     margin-left: 1rem;
+    padding: 0.5rem;
 }
 
 /* Experience */
