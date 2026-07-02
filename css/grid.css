@@ -264,6 +264,10 @@ main {
     align-items: stretch;
 }
 
+#tag h1 {
+    margin-top: 2rem;
+}
+
 #tag span {
     width: auto;
 }
