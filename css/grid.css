@@ -147,6 +147,7 @@ main {
 #articles section p span.smallbutton {
     display: flex;
     justify-content: left;
+    margin-bottom:2rem;
     align-items: center;
     flex-direction: row;
 }

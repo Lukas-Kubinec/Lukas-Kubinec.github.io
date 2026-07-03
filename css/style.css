@@ -104,6 +104,13 @@ main {
     text-decoration: dotted;
 }
 
+#tag h1#name {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: var(--tag-bck) 0px 0px 20px;
+}
+
+
 /* Tag */
 #tag h1, #tag h2  {
     color: var(--primary-text);
