@@ -1,13 +1,14 @@
 
+/*
+Original colour scheme
 :root{
-    /* Colours */
-    /* Text */
+
     --primary-text-normal: #000;
     --primary-text-hover: #fff;
     --icon-normal: #000000;
     --icon-hover: #0070ff;
 
-    /* Backgrounds */
+
     --void: #fff7c3;
     --navbar-bck: #000;
     --tag-bck: #ffab6b;
@@ -17,15 +18,43 @@
     --shadow: #000000bd;
     --logo-bck: #5d1b1b;
 
-    /* Buttons */
+
     --button-background: #4CC9FE;
     --button-hover-background: #45afdd;
     --button-focus-background: #ffbf8e;
     --button-selected-background: #ffab6b;
 
+
+    --border-size: 8px;
+}*/
+
+:root {
+    /* Text */
+    --primary-text-normal: #1e242b;
+    --primary-text-hover: #252525;
+    --icon-normal: #1a4b6e;
+    --icon-hover: #0078d7;
+
+    /* Backgrounds */
+    --void: #2f8eb2;
+    --navbar-bck: #0b1924d9;
+    --tag-bck: #d9ab5b;
+    --section-border: #82b4d9;
+    --section-area: #f4f7fa;
+    --section-image-border: #8e9ea8;
+    --shadow: #05111a99;
+    --logo-bck: #1f7a4c;
+
+    /* Buttons */
+    --button-background: #e3e8ed;
+    --button-hover-background: #cce8ff;
+    --button-focus-background: #99d1ff;
+    --button-selected-background: #3399ff;
+
     /* Settings */
     --border-size: 8px;
 }
+
 
 
 /* Styles */
@@ -65,12 +94,12 @@ h2 {
 }
 
 #nav_buttons a:first-child {
-    border-top-left-radius: var(--border-size);
+    border-top-left-radius: 0;
     border-bottom-left-radius: var(--border-size);
 }
 
 #nav_buttons a:last-child {
-    border-top-right-radius: var(--border-size);
+    border-top-right-radius: 0;
     border-bottom-right-radius: var(--border-size);
 }
 
