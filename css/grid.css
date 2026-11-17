@@ -103,11 +103,15 @@ main {
     flex-basis: 50%;
 }
 
+/*
+NOT IN USE
 #articles section:first-child {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
 }
+
+*/
 
 #articles section h2 {
     width: fit-content;
